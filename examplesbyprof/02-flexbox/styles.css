@@ -1,6 +1,3 @@
-/*  ctrl slash or cmd slash shortcut for comment  */
-/* use :root for custom properties */
-
 :root {
     --resp-flex-direction: row;
 }
