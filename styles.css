@@ -28,9 +28,33 @@
     justify-content: space-between;
 }
 
+.wrapper a {
+    text-decoration: none;
+}
+
 .logo {
     max-width: 250px;
 }
+
+.name-title {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* text-decoration: none; */
+}
+
+.header-name {
+    font-family: tomkin-medium, sans-serif;
+    padding: 10px;
+}
+
+.header-title {
+    font-family: tomkin-regular, sans-serif;
+}
+
+/* .home-link a{
+    text-decoration: none;
+} */
 
 .nav-list {
     display: flex;
@@ -58,15 +82,16 @@
 }
 
 .title {
-    color: #fafafa;
+    color: #ffffff;
     font-family: tomkin-medium, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.75rem;
     margin: 0 0 25px 0;
 }
 
 .subtitle {
     font-family: tomkin-regular, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    color: #303030;
 }
 
 .footer {
@@ -107,4 +132,103 @@
 }
 .footer-sub-box a {
     text-decoration: none;
+}
+
+.intro {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.intro-upper {
+    font-family: tomkin-medium, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    padding: 30px;
+}
+
+.intro-lower {
+    font-family: tomkin-medium, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    padding: 30px;
+}
+
+/* Resume styles */
+
+.edu {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+.section {
+    font-family: tomkin-medium, sans-serif;
+}
+
+.section-title {
+    padding: 10px;
+}
+
+.copy {
+    padding: 3px 0 3px 15px;
+}
+
+.copy-school {
+    padding: 3px 0 3px 15px;
+    color: #fff;
+}
+.work__title {
+    color: #fff;
+}
+.edu__items {
+    padding: 3px 0 3px 35px;
+}
+
+.work__items {
+    padding: 3px 0 3px 35px;
+}
+
+.work__title-section {
+    padding: 3px 0 3px 15px;
+}
+
+.resume-text {
+    font-family: tomkin-medium, sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.resume-pdf {
+    /* padding: 3px 0 3px 15px; */
+    text-align: center;
+}
+
+.resume-pdf a {
+    text-decoration: none;
+    color: black;
+    font-family: tomkin-regular, sans-serif;
+    font-size: 1.25rem;
+}
+
+.resume-pdf a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-family: tomkin-medium, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Resume Ends */
+
+/* Contact Styles */
+
+.contact-sub-box {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+.contact-box {
+    background-color: #afafaf;
+    min-height: 100vh;
+    padding: 100px 0;
 }

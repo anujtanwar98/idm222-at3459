@@ -12,15 +12,17 @@
 <body>
     <header class="header">
         <div class="wrapper">
-            <a href="index.html">
-                <img class="logo" src="images/anuj_logo.png" alt="my logo">
+            <a class="home-link" href="index.html">
+                <div class="name-title">
+                    <img class="logo" src="images/anuj_logo.png" alt="my logo">
+                    <h3 class="header-name">
+                        Anuj Tanwar
+                    </h3>
+                    <p class="header-title">
+                        UX Designer
+                    </p>
+                </div>
             </a>
-            <!-- <div class="name-title">
-                <h3>
-                    Anuj Tanwar
-                    UX Designer
-                </h3>
-            </div> -->
             <nav class="topnav">
                 <ul class="nav-list">
                     <li class="nav-list-item">
@@ -43,16 +45,24 @@
         </div>
     </header>
     <main>
-        <div class="message-text"><h1>Send a Message</h1></div>
-        <div class="container">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name.." required>
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Your Email.." required>
-            <label for="message">Message</label>
-            <textarea id="message" placeholder="Write something.."></textarea>
-            <input type="submit" value="Submit">
-        </div>
+        <section class="contact-box">
+            <div class="contact-sub-box">
+                <div class="message-text">
+                    <h1>
+                        Send a Message
+                    </h1>
+                </div>
+                <div class="container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your Email.." required>
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Write something.."></textarea>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <section class="footer-box">
