@@ -5,27 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="normalize.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
     <link rel="icon" type="image/png" href="/images/anuj_logo.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img class="logo" src="images/anuj_logo.png" alt="my logo">
-        <div class="name-title"><h3>
-            Anuj Tanwar
-            UX Designer
-            </h3>
-            </div>
-        <nav>
-            <div class="topnav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="resume.html">Resume</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
+    <header class="header">
+        <div class="wrapper">
+            <a href="index.html">
+                <img class="logo" src="images/anuj_logo.png" alt="my logo">
+            </a>
+            <!-- <div class="name-title">
+                <h3>
+                    Anuj Tanwar
+                    UX Designer
+                </h3>
+            </div> -->
+            <nav class="topnav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-bar" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-bar" href="about.html">About</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-bar" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-bar" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-bar" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
             <div class="edu">
@@ -135,19 +150,28 @@
                 </div>
             </section>
     </main>
-<footer>
-    <div class="foot">
-        <h4>CONTACT</h4>
-        <div class="email"><a href="mailto:anujtanwar89@gmail.com">anujtanwar89@gmail.com</a></div>
-        <h4>FOLLOW</h4>
-        <a target="_blank" href="https://www.linkedin.com/in/anuj-tanwar-48a72817b/">
-            <img class="icon" src="images/linkedin.png" alt="linkedin">
-        </a>
-        <a target="_blank" href="https://www.github.com/anujtanwar98">
-            <img class="icon" src="images/github.png" alt="github">
-        </a>
-    </div>
-</footer>
-    </header>
+    <footer class="footer">
+        <section class="footer-box">
+            <div class="footer-sub-box">
+                <h3 class="contact-title">
+                    CONTACT
+                </h3>
+                <div class="email">
+                    <a href="mailto:anujtanwar89@gmail.com">
+                        anujtanwar89@gmail.com
+                    </a>
+                </div>
+                <h3 class="connect-title">
+                    CONNECT
+                </h3>
+                <a class="connect-link" target="_blank" href="https://www.linkedin.com/in/anuj-tanwar-48a72817b/">
+                    <img class="icon" src="images/linkedin.png" alt="linkedin">
+                </a>
+                <a class="connect-link" target="_blank" href="https://www.github.com/anujtanwar98">
+                    <img class="icon" src="images/github.png" alt="github">
+                </a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

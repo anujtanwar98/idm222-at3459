@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: 'tomkin-medium';
+    src: url('fonts/tomkin-medium.woff2');
+}
+@font-face {
+    font-family: 'tomkin-regular';
+    src:url('fonts/tomkin-regular.woff2');
+}
+
+.header {
+    background-color: #303030;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list-item {
+    list-style-type: none;
+}
+.nav-bar {
+    color: white;
+    font-family: tomkin-medium, sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 0 25px;
+}
+.title-sub-box {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+.title-box {
+    background-color: #afafaf;
+    min-height: 100vh;
+    padding: 100px 0;
+}
+
+.title {
+    color: #fafafa;
+    font-family: tomkin-medium, sans-serif;
+    font-size: 3.5rem;
+    margin: 0 0 25px 0;
+}
+
+.subtitle {
+    font-family: tomkin-regular, sans-serif;
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #303030;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.footer-box {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+.contact-title {
+    padding: 3px;
+    font-family: tomkin-medium, sans-serif;
+}
+
+.email {
+    padding: 5px;
+}
+
+.email a {
+    text-decoration: none;
+    color: white;
+    font-family: tomkin-regular, sans-serif;
+}
+.connect-title {
+    padding: 3px;
+    font-family: tomkin-medium, sans-serif;
+}
+.icon {
+    text-decoration: none;
+}
+.connect-link {
+    padding: 5px;
+    margin-top: 10px;
+}
+.footer-sub-box a {
+    text-decoration: none;
+}
