@@ -123,12 +123,13 @@
     padding: 3px;
     font-family: tomkin-medium, sans-serif;
 }
-.icon {
-    text-decoration: none;
-}
+
 .connect-link {
     padding: 5px;
     margin-top: 10px;
+}
+.connect-link:hover .icon {
+    fill: aqua;
 }
 .footer-sub-box a {
     text-decoration: none;
@@ -231,4 +232,51 @@
     background-color: #afafaf;
     min-height: 100vh;
     padding: 100px 0;
+}
+
+/*  portfolio styles */
+.main-heading {
+    font-size: 3rem;
+    font-family: tomkin-medium, sans-serif;
+    text-align: center;
+}
+
+.diff-links {
+    text-decoration: none;
+}
+.diff-links {
+    padding: 5px;
+    margin-top: 10px;
+}
+.diff-links:hover .project-icons {
+    fill: aqua;
+}
+.project-icons {
+    height: 24px;
+    width: 24x;
+}
+/* .projects {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+} */
+.project-images {
+    width: 100%;
+}
+.project-title {
+    font-size: 2rem;
+    font-family: tomkin-medium, sans-serif;
+}
+.project-text {
+    font-size: 1.5rem;
+    font-family: tomkin-regular, sans-serif;
+}
+.tools-used {
+    display: flex;
+    align-items: center;
+}
+.tools-text{
+    padding: 5px 15px;
 }
