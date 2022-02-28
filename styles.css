@@ -455,7 +455,7 @@
         color: #fff;
     }
 
-    .nav-link:hover a {
+    .nav-link:hover {
         color: aqua;
     }
 
