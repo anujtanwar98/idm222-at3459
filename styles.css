@@ -280,9 +280,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* align-items: center;
-    display: flex;
-    justify-content: space-between; */
 }
 .project-images {
     filter: blur(3px) grayscale(80%);
@@ -304,7 +301,6 @@
 .projects-details {
     /* background-color: #303030; */
     background-image: url("graphics/web-back.png");
-    /* filter: drop-shadow(0 0 0.75rem crimson); */
     filter: drop-shadow(0 0 0.75rem aqua);
     border-radius: 20px;
     display: flex;
@@ -426,10 +422,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 130px 0 0 0; 
-        /* background-image: url("graphics/web-back.png");  */
-        /* background-color: rgb(80, 14, 14); */
-        /* background-color: #afafaf; */
+        margin: 130px 0 0 0;
         background-color: #000000;
         transition:transform 0.3s ease-in;  
         transform:translate(100%); 
@@ -488,6 +481,40 @@
         transform: rotate(-45deg) translate(8px,-3px);
    }  
 
+   /*  adding padding and margin to all the conetct on page */
+
+   /* for index about contact portfolio resume page */
+
+   .title-box {
+       padding: 100px 10px;
+   }
+   .footer {
+       padding: 20px 10px;
+   }
+   .contact-box{
+       padding: 100px 10px;
+   }
+   .intro-upper{
+        padding: 30px 10px 0 10px;
+   }
+   .intro-lower{
+        padding: 30px 10px 0 10px;
+    }
+
+    /* text update for index in media q */
+
+    .title {
+        color: #ffffff;
+        font-family: tomkin-medium, sans-serif;
+        font-size: 3.5rem;
+        margin: 0 0 25px 0;
+    }
+    
+    .subtitle {
+        font-family: tomkin-regular, sans-serif;
+        font-size: 1.75rem;
+        color: #303030;
+    }
 
 }
 
@@ -506,7 +533,6 @@
 .projects-details-digital {
     /* background-color: #303030; */
     background-image: url("graphics/web-back.png");
-    /* filter: drop-shadow(0 0 0.75rem crimson); */
     filter: drop-shadow(0 0 0.75rem aqua);
     border-radius: 20px;
     display: flex;
